@@ -60,11 +60,6 @@ Shader "Universal Render Pipeline/Custom/Physically Based Example"
             // "UniversalRenderPipeline"
             Tags{"RenderType" = "Opaque" "RenderPipeline" = "UniversalRenderPipeline" "IgnoreProjector" = "True"}
             LOD 300
-            Stencil
-            {
-                Ref[_TREF]
-                Comp GEqual
-            }
             // ------------------------------------------------------------------
             // Forward pass. Shades GI, emission, fog and all lights in a single pass.
             // Compared to Builtin pipeline forward renderer, LWRP forward renderer will

@@ -7,15 +7,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Custom_object 2
-  m_Shader: {fileID: 4800000, guid: d16ef75a1c71b8f49984ba6575acac2b, type: 3}
+  m_Name: sphere
+  m_Shader: {fileID: 4800000, guid: 4bda596ccfe5be0478ab661b817c3188, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2050
-  stringTagMap:
-    RenderType: Opaque
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -33,7 +32,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 3e11968c372730442aae3b4f7c909931, type: 3}
+        m_Texture: {fileID: 2800000, guid: dd61af2ec9847eb4d8e17529fa61b143, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -57,21 +56,24 @@ Material:
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _QueueOffset: 0
+    - _REFF: 1
     - _ReceiveShadows: 1
+    - _Reff: 0
+    - _ReffQ: 0
+    - _ReffQQ: 0
+    - _Reffq: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _TREF: 5
+    - _TREF: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.9496012, g: 1, b: 0.05098039, a: 1}
-    - _Color: {r: 1, g: 0.88550174, b: 0, a: 1}
+    - _BaseColor: {r: 0.13003802, g: 1, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
